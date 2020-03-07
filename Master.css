@@ -1,0 +1,21 @@
+html, body{
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+p{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1,h2,h3,h4,h5,h6{
+    text-align: center;
+}
+td,th{
+    text-align: center;
+}
+th{
+    font-weight: bold;
+}
+#map {
+    height: 100px;  /* The height is 400 pixels */
+    width: 25%;  /* The width is the width of the web page */
+   }
