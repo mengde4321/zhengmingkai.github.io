@@ -3,47 +3,90 @@
      <head>
          <meta charset="UTF-8">
          <title>Master-AD-info</title>
-         <link rel="stylesheet" href="css/Master.css">
+         <style>
+           html, body{
+                      font-family: 'Times New Roman', Times, serif;
+                      text-decoration: none;
+                    }
+            p{
+              text-align: left;
+              font-family: 'Times New Roman', Times, serif;
+              }
+              h1,h2,h3,h4,h5,h6{
+                text-align: center;
+                }
+                    th{
+                      font-weight: bold;
+                      text-align: center;
+                      }
+         </style>
     </head>
  
-   <body>
-      <table border="1">
-          <tr class="Head"> 
-              <th>学校</th><th>时长</th><th>Accept-decision DDL</th><th>位置</th><th>专业</th><th>转track转码情况及其他</th>
-          </tr>
-          <tr class="NYU" style="text-align: center;">
-              <td width="10%">NYU-Tandon</td>
-              <td>2 Years</td>
-              <td width="5%">5.1</td>
-              <td width="15%"><p>New York City-Brooklyn</p>  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3025.081274380242!2d-73.9887676843449!3d40.69420764664023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a4a4d8396f3%3A0xda9b313d596491f7!2z57q957qm5aSn5a2m5Z2m6aG_5bel56iL5a2m6Zmi!5e0!3m2!1szh-CN!2sus!4v1583588529655!5m2!1szh-CN!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe></td>
-              <td>MS-Electrical Engineering</td>
-              <td style="text-align: left;" width="30%"><p>听说NYU很硬, 不适合转码. 但是, 听说这些年扩招后课程质量有所下降. 并且原来做VLSI的大牛跳槽去了UIUC. 反正硬件方面现在情况不太好.</p></td>
-          </tr>
-          <tr class="UW-Seatle" style="text-align: center;">
-            <td>UW-Seattle</td>
-            <td>2 Years</td>
-            <td>4.15</td>
-            <td><p>西海岸-华盛顿州-西雅图</p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2687.497101040387!2d-122.30570858417788!3d47.655338692602726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549014929d8535eb%3A0x6b742c7901b82ba3!2z5Y2O55ub6aG_5aSn5a2m!5e0!3m2!1szh-CN!2sus!4v1583589102834!5m2!1szh-CN!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe></td>
-            <td>MS-Electrical Engineering</td>
-            <td style="text-align: left;"><p><a href="https://www.1point3acres.com/bbs/thread-601173-1-1.html">ee号称转码不方便...这个学校在大家的心目中很冷门、小众。…...因为我们uw有钱，所以研究生不管做ra还是ta，都会全部cover学费+每月2800的phd级工资待遇。ee没有career fair，来招聘的公司也不多.</a> </p><p style="color: red;">所以,从目前现有的信息来看, UW-EE更适合读博, 而不太适合转码和找工作.</p></td>
-          </tr>
-          <tr class="cornell" style="text-align: center;">
-            <td>Cornell</td>
-            <td>9 Months<br>可最多延长至 1.5/2 Years (实习)</td>
-            <td>4.15</td>
-            <td><p>东海岸-纽约州-伊斯塔</p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47091.33133990136!2d-76.50272804897939!3d42.465860258986886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d0821a6191da9d%3A0xf50ee64d821b9ff4!2z5bq35LmD5bCU5aSn5a2m!5e0!3m2!1szh-CN!2sus!4v1583589738937!5m2!1szh-CN!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe></td>
-            <td>Meng-Electrical and Computer Engineering</td>
-            <td style="text-align: left;">当初选cornell并没有考虑到转码的事, 不过目前来看适合转码. Cornell的VLSI貌似也还可以</td>
-          </tr>
-          <tr class="UCSD" style="text-align: center;">
-            <td>UCSD</td>
-            <td>2 Years</td>
-            <td>4.15</td>
-            <td><p>西海岸-加州-圣地亚哥</p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3350.6845447198!2d-117.23620218450102!3d32.8800648860305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc06c4414caf4f%3A0xefb6aafc89913ea7!2z5Yqg5Yip56aP5bC85Lqa5aSn5a2m5Zyj6L-t5oiI5YiG5qCh!5e0!3m2!1szh-CN!2sus!4v1583590172347!5m2!1szh-CN!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe></td>
-            <td>MS-ECE<br>EC78-Electronic Circuits & Systems</td>
-            <td style="text-align: left;"><p>EC78不适合转码.</p></td>
-          </tr>
-      </table>
-
-    </body>
+     <body>
+         <p>该网站主要用于记录所有目前收到AD学校的部分信息, 方便日后比较. 尚处于不定期更新状态.</p>
+         <p>如果有想了解我申请背景的, 可以直接在<a href="https://www.zhihu.com/people/meng-de-87-26/answers">X乎</a>和<a href="https://www.1point3acres.com/bbs/space-uid-508259.html">地里</a>看到.</p>
+         <p>我想再次和大家说一次, <strong><a href="https://www.1point3acres.com/bbs/thread-601585-1-1.html">能不找中介就不要去找中介</a></strong>.有不负责任又乱收费, 还要跟祖宗似的, 非要求着催着才给PS&CV.</p>
+         <table border="1">
+             <tr class="Head">
+                 <th>学校</th>
+                 <th>时长</th>
+                 <th>Decision DDL</th>
+                 <th>位置</th>
+                 <th>专业</th>
+                 <th>转track转码情况及其他</th>
+             </tr>
+             <tr class="NYU" style="text-align: center;">
+                 <td width="10%">NYU-Tandon</td>
+                 <td>2 Years</td>
+                 <td width="5%">5.1</td>
+                 <td width="15%"><p style="text-align: center;">New York City-Brooklyn</p>  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3025.081274380242!2d-73.9887676843449!3d40.69420764664023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a4a4d8396f3%3A0xda9b313d596491f7!2z57q957qm5aSn5a2m5Z2m6aG_5bel56iL5a2m6Zmi!5e0!3m2!1szh-CN!2sus!4v1583588529655!5m2!1szh-CN!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe></td>
+                 <td>MS-Electrical Engineering</td>
+                 <td style="text-align: left;" width="30%">
+                     <p>听说NYU很硬, 不适合转码. 在我看来这是好事, 毕竟如果身边的人都在想着转码的话, 风气可能不太好. 但是, 听说这些年扩招后课程质量有所下降. <br><a href="https://www.1point3acres.com/bbs/thread-576840-1-1.html">并且原来做VLSI的大牛Shaloo (也不是说人家学术造诣和LeCun一样, 但人家很负责任) 跳槽去了UIUC. 还有, 现在扩招后ECE一年人数500+ (目测20Fall应该会更多), 感觉人多了资源就少了, 师资也开始下滑.</a> <br>反正硬件方面现在情况不太好. </p>
+                     <p>PS: <q> 转博不可能留到nyu ece的fellowship不给转博的 基本也没几个老师会有钱到给你RA四年</q></p>
+                     <br><p style="text-align: center;">大概率会decline</p>
+                 </td>
+             </tr>
+             <tr class="UW-Seatle" style="text-align: center;">
+                 <td>UW-Seattle</td>
+                 <td>2 Years</td>
+                 <td>4.15</td>
+                 <td><p style="text-align: center;">西海岸-华盛顿州-西雅图</p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2687.497101040387!2d-122.30570858417788!3d47.655338692602726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549014929d8535eb%3A0x6b742c7901b82ba3!2z5Y2O55ub6aG_5aSn5a2m!5e0!3m2!1szh-CN!2sus!4v1583589102834!5m2!1szh-CN!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe></td>
+                 <td>MS-Electrical Engineering</td>
+                 <td style="text-align: left;">
+                     <p><a href="https://www.1point3acres.com/bbs/thread-601173-1-1.html">ee号称转码不方便...这个学校在大家的心目中很冷门、小众。…...因为我们uw有钱，所以研究生不管做ra还是ta，都会全部cover学费+每月2800的phd级工资待遇。ee没有career fair，来招聘的公司也不多.</a> </p>
+                     <p style="color: red;">所以,从目前现有的信息来看, UW-EE更适合读博, 而不太适合转码和找工作.</p>
+                 </td>
+             </tr>
+             <tr class="cornell" style="text-align: center;">
+                 <td>Cornell</td>
+                 <td>9 Months<br>可最多延长至 1.5/2 Years (实习)</td>
+                 <td>4.15</td>
+                 <td><p style="text-align: center;">东海岸-纽约州-伊斯塔</p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47091.33133990136!2d-76.50272804897939!3d42.465860258986886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d0821a6191da9d%3A0xf50ee64d821b9ff4!2z5bq35LmD5bCU5aSn5a2m!5e0!3m2!1szh-CN!2sus!4v1583589738937!5m2!1szh-CN!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe></td>
+                 <td>Meng-Electrical and Computer Engineering</td>
+                 <td style="text-align: left;">
+                     <p>当初选cornell并没有考虑到转码的事, 不过目前来看适合转码. Cornell的VLSI貌似也还可以.</p>
+                     <p>学校在村里, 但是感觉应付日常生活是足够了. 而且市内也有bus, 没车的话也不会太麻烦. </p>
+                     <p>cornell的title确实响, <a href="https://www.1point3acres.com/bbs/thread-556618-1-1.html">听说嵌入式方面和VLSI也很好找工作, 风评很好.</a></p>
+                     <p>课是很好, 师资也很雄厚. 但是听说workload很大. MEng毕业需要30学分, 大概对应7~8门课. 即便是1.5年毕业, 这个还是比较辛苦的, 每学期要3门课. CS尤其如此, 因为缺基础课, 所以要花更多的时间补基础. 要转码的话一定要从暑假开始刷题上网课.</p>
+                     <p>感觉很神奇的就是他的ACE语言班, 7月中旬到八月中旬..... 和毕业典礼冲突了.</p>
+                     <br><p style="text-align: center;">很好的项目, 找工十分友好. 而且占位费也不太贵($500). 不管以后咋说, 还是先把占位费交了吧.</p>
+                 </td>
+             </tr>
+             <tr class="UCSD" style="text-align: center;">
+                 <td>UCSD</td>
+                 <td>2 Years</td>
+                 <td>4.15</td>
+                 <td><p style="text-align: center;">西海岸-加州-圣地亚哥</p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3350.6845447198!2d-117.23620218450102!3d32.8800648860305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc06c4414caf4f%3A0xefb6aafc89913ea7!2z5Yqg5Yip56aP5bC85Lqa5aSn5a2m5Zyj6L-t5oiI5YiG5qCh!5e0!3m2!1szh-CN!2sus!4v1583590172347!5m2!1szh-CN!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe></td>
+                 <td>MS-ECE<br>EC78-Electronic Circuits & Systems</td>
+                 <td style="text-align: left;">
+                     <p style="color: red;">再说别的之前, 我想先强调一下申请的注意事项: sd是鼓励跨系申请的, ECE和CS是两个系, 所以申请的时候, <strong>一定要在ECE和CS里各选一个</strong>, 不然真的觉得亏. 同一个系下的第二份申请是要额外缴费的, 所以如果打算走VLSI的话, waiver可以选CS的CE (具体code记不清了, 大家申请的时候看下就行了). 好在我的中介啥都不懂, 所以自然是只申了ECE的EC78.</p>
+                     <p>EC78不太适合转码. 但是听说sd是很多码农大厂的target school, 所以可能自己努力刷题的话也能上岸吧.</p>
+                     <p></p>
+                 </td>
+             </tr>
+         </table>
+         <hr>
+         <p style="text-align: center;">以上所有的资料均来源于<em>一亩三分地</em></p>
+     </body>
 </html>
